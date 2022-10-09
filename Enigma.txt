@@ -1,0 +1,85 @@
+ 
+Ma solution proposée est un programme Python qui crypte et décrypte du texte en utilisant le chiffrement César.
+
+Ma solution utilise l'alphabet pour représenter les lettres d'une chaîne de texte, et les rotors A-C pour représenter chaque lettre de l'alphabet.
+
+Le premier rotor (A) est utilisé comme clé de cryptage, tandis que chaque rotor suivant (B-C) est utilisé comme clé de décryptage.
+
+On commence par déclarer des variables pour trois tableaux différents : encryptedLetter, let, et rotorA.
+
+Ces variables sont déclarées avec des lettres minuscules afin de pouvoir les distinguer facilement les unes des autres plus tard dans Ma solution.
+
+Ensuite, deux boucles imbriquées sont créées pour parcourir les 26 lettres de l'alphabet et indexer chacune d'elles.
+ 
+ On commence par définir les variables qui seront utilisées dans le programme.
+
+La première variable est rotorA, qui contiendra une chaîne de lettres de A à Z.
+
+La deuxième variable est le rotorB, qui contiendra une chaîne de lettres de B à Z.
+
+La troisième variable est rotorC, qui contient une chaîne de chiffres de 0 à 9.
+
+La ligne suivante définit deux tableaux : un pour les rotors et un pour les encoches.
+
+Chaque tableau contient trois éléments : un numéro d'index (0, 1 ou 2), suivi d'une lettre de l'alphabet (A-Z) et d'un autre numéro d'index (26).
+
+Cela signifie que chaque élément du tableau correspond à sa propre combinaison de lettres et de chiffres sur le clavier.
+
+Par exemple, si vous tapez "ABC", votre code ressemblerait à ceci : rotorDict[rotors[0]] = 'A' rotorDict[rotors[1]] = 'B' rotorDict[rotors[2]] = 'C'.
+
+Viennent ensuite quelques opérations mathématiques utilisant les techniques de chiffrement par décalage de César pour convertir les différents caractères de différents jeux de clés en caractères équivalents sur tous les autres jeux de clés - par ex.
+
+Ma solution est utilisé pour chiffrer une chaîne de texte.
+
+La variable ciphertext est définie comme une chaîne vide au début du programme.
+
+Les variables rotorA, rotorB et rotorC sont définies comme les valeurs de chaque rotor individuel dans le dictionnaire des rotors.
+
+rotorA = caesarShift(rotorA,offsetASetting) rotorB = caesarShift(rotorB,offsetBSetting) rotorC = caesarShift(rotorC,offsetCSetting)
+
+On commence par définir un dictionnaire appelé plugboardDict.
+
+C'est là que sont stockées les clés de cryptage.
+
+suivi par la définition de deux variables, Plaintext et encryptedLetter.
+
+Plaintext est le texte original qui a été entré dans le programme, tandis que encryptedLetter est ce qui sera sorti lorsque le moment sera venu de crypter quelque chose avec cette clé particulière.
+
+Cette ligne met en place une boucle for qui itère à travers chaque lettre du texte en clair et vérifie si elle existe ou non dans le plugboardDict en utilisant une instruction if.
+
+Si elle existe, nous utilisons une autre boucle for pour vérifier quel rotor doit tourner en fonction de l'existence ou non d'une séquence à double pas (rotorBLetter == rotorBNotch).
+
+Ensuite, nous implémentons le processus de cryptage en vérifiant si la lettre existe dans le plugboardDict avant de faire quoi que ce soit d'autre !
+
+Je compte créer un script Python qui va crypter la lettre A avec la clé "A" et ensuite la décrypter avec la clé "B".
+
+On commence par définir un dictionnaire de toutes les clés possibles.
+
+Pour ce faire, il suffit d'utiliser plugboard.upper().split(" ") pour créer un tableau de toutes les lettres majuscules de l'alphabet, qui est ensuite itéré pour créer un dictionnaire pour chaque lettre.
+
+Ensuite, nous définissons une variable appelée plugboardDict qui contiendra nos clés de cryptage/décryptage.
+
+Elle est initialisée avec une liste vide ainsi qu'un ensemble vide de clés.
+
+La première itération de cette boucle crée deux listes - une pour les lettres majuscules et une pour les lettres minuscules - contenant toutes deux chaque lettre.
+
+On commence par déclarer une variable appelée encryptedLetter.
+
+Il s'agit de la lettre qui sera cryptée et décryptée dans ce programme.
+
+Ma solution déclare ensuite deux autres variables, rotorA et rotorB, qui sont utilisées respectivement pour le cryptage de la roue 1 et de la roue 2.
+
+La ligne de code suivante déclare une variable appelée pos, qui est utilisée pour garder la trace de la position de la lettre en cours de traitement dans l'alphabet.
+
+Ma solution est un script python qui va crypter la lettre A avec la clé "A", puis la décrypter avec la clé "B".
+
+Ensuite, on déclare trois variables : let (pour la roue 1), pos (pour la roue 2), et encryptedLetter (pour les deux roues).
+
+Ces variables sont déclarées de manière à pouvoir être utilisées ultérieurement lors du cryptage ou du décryptage de lettres avec leurs rotors respectifs.
+
+Vient ensuite une instruction if qui vérifie si la lettre en cours de traitement a déjà été vue dans une partie quelconque de la chaîne de texte chiffré de ce programme.
+
+Si elle a déjà été vue, le programme utilisera la valeur stockée comme clé correspondante dans reflectorDict ou plugboardDict, selon le type de cryptage effectué la dernière fois avec cette lettre.
+
+Sinon, si elle n'a pas encore été vue ailleurs dans la chaîne de texte chiffré, elle utilisera simplement la valeur stockée comme clé correspondante dans reflectorDict ou plugboardDict, selon le type de chiffrement effectué la dernière fois avec cette lettre.
+

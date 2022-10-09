@@ -1,0 +1,297 @@
+
+
+    On commence par déclarer les variables pour le niveau de zoom et le mode journal.
+
+    La variable "logMode" est définie à false, ce qui signifie qu’elle ne sera pas enregistrée dans la fenêtre de la console.
+
+    Ensuite, une fonction appelée "applyZoom" est définie avec deux paramètres : x et y.
+
+    Cette fonction modifie le niveau de zoom d’un élément sur la page en fonction de x ou y est supérieur à 0 (en d’autres termes, si l’un des paramètres est positif).
+
+    Si les deux sont négatifs, ils sont soustraits l’un de l’autre pour obtenir une nouvelle valeur.
+
+    La ligne suivante déclare une variable booléenne appelée son; cette variable indique si l’audio doit être lu lors du chiffrement ou du déchiffrement du texte à l’aide de l’algorithme de chiffrement intégré d’Enigma 2.0.
+
+    Ensuite, il y a trois valeurs possibles pour le mode : Encrypt, Decrypt et AnalyzeTextOnly.
+
+    Afin de chiffrer le texte, vous devez d’abord entrer votre mot de passe dans l’interface d’Enigma 2; Cependant, vous pouvez également utiliser cette fonctionnalité sans entrer aucune information en réglant le son à true et en réglant le mode égal à "Encrypt".
+
+    Le code est censé chiffrer le texte.
+
+    Le code ci-dessus cryptera le texte et le stockera dans une variable appelée encryptedText.
+
+    Le code est une chaîne de lettres et de chiffres.
+
+    La première lettre est le numéro du rotor, qui est un identifiant pour chaque rotor de la machine.
+
+    Les deux chiffres suivants représentent la position de l’encoche sur ce rotor particulier.
+
+    Par exemple, "EKMFLGDQVZNTOWYHXUSPAIBRCJ" serait le code pour le rotor 1 avec la position d’encoche Q.
+
+    Les rotors sont numérotés de 0 à 26 (non compris).
+
+    Chacun a un identifiant unique et une position d’encoche sur son propre axe.
+
+    Le code est un extrait des réglages du rotor de la machine Enigma.
+
+    On commence par une déclaration de variable.
+
+    Les variables sont appelées rotorA, rotorB et rotorC.
+
+    Ces trois variables représentent les trois rotors de la machine.
+
+    La ligne suivante déclare les couleurs comme un tableau de cinq chaînes : "rouge", "jaune", "bleu", "vert", et "magenta".
+
+    Les couleurs sont alors assignées une valeur de 0 pour chaque chaîne sauf pour le rouge qui a une valeur de 1.
+
+    Vient ensuite plugs qui est un objet qui contient toutes les lettres utilisées dans ce programme ainsi que leurs valeurs de couleur correspondantes.
+
+    Par exemple, Q aurait une valeur de 0 parce qu’il ne fait partie d’aucun mot ou phrase dans ce programme tandis que W aurait une valeur de 1 parce que c’est à une lettre de faire partie du mot eau (W).
+
+    Le code est une fonction qui renvoie la couleur d’une lettre donnée.
+
+ var couleurs = {"rouge":0,"jaune":0,"bleu":0,"vert":0,"magenta":0,"cyan":0,"orangé":0,"marron":0,"indigo":0, "olive":"}; Le code est un tableau qui contient toutes les couleurs en format hexadécimal.
+
+    Le code commence par obtenir le texte de chaque rotor.
+
+    Il vérifie ensuite s’il y a une séquence en deux étapes dans la lettre courante, et si c’est le cas, il affiche les lettres précédente et suivante.
+
+    Le code est destiné à afficher la position actuelle des rotors.
+
+    La première ligne de code vérifie une séquence en deux étapes.
+
+    S’il y en a un, il mettra les valeurs précédentes et actuelles au début de l’alphabet (A) et vérifiera ensuite la lettre suivante pour avancer en rotation.
+
+    S’il n’y a pas de séquence en double pas, il vérifiera si "rotorBLetter" est égal à "rotorBTrigger".
+
+    Si c’est le cas, les trois lettres seront réinitialisées à A, puis on passera à la vérification de la lettre suivante afin d’avancer en rotation.
+
+    On commence par déclarer une variable pour l’alphabet.
+
+    C’est un tableau de 26 lettres, de A à Z.
+
+    Puis on déclare ensuite une variable pour l’indice rotorC et lui attribue une valeur égale à 0.
+
+    La valeur de cette variable change à mesure que nous progressons dans le programme, elle doit donc être déclarée avant que d’autres variables soient déclarées ou affectées à des valeurs.
+
+    Ensuite, il déclare une variable pour la lettre chiffrée et fixe sa valeur à "A".
+
+    Ensuite, il déclare deux autres variables : l’une qui stocke quelle lettre dans l’alphabet correspond à quel rotor (rotorB=0; rotorC=1) et un autre qui stocke si oui ou non cette lettre est dans le réflecteur (réflecteur[lettre]=vrai).
+
+    Ces deux variables sont utilisées plus tard lorsque nous en avons besoin.
+
+    Enfin, il y a un peu de code au bas où si vous entrez "A" dans votre clavier, puis le cryptage du plugboard devrait se produire parce que A est déjà branché dans les deux rotors!
+
+    On va dans un premier temps tentre de chiffrer la lettre "E" puis de la déchiffrer dans sa forme originale.
+
+    La première ligne de code est : let = rotorA.charAt((pos + offset1)%26); Cette ligne de code trouve la lettre "E" dans l’alphabet et l’assigne à une variable nommée let.
+
+    La ligne de code suivante est : pos = alphabet.indexOf(let); Cette ligne de code trouve où la lettre "E" apparaît dans l’alphabet, qui serait à la position 26 dans l’alphabet (la dernière lettre).
+
+    Le résultat serait 26 parce qu’il y a 26 lettres dans un alphabet de langue anglaise.
+
+    Il en résulte une valeur de 26 pour pos.
+
+    S’il n’y a pas de couleur d’arrière-plan, alors la variable currentColor sera définie sur une chaîne vide et le style de l’élément aura sa propriété d’arrière-plan définie sur celle de la couleur libre (dans ce cas, blanc).
+
+    S’il y a une couleur de fond, alors il va réinitialiser tous les plugs dans le plugboard de sorte qu’ils sont de retour à leur état initial.
+
+    Ensuite, il définit quelques variables pour les couleurs et les lettres : couleurs [currentColor] = 2; et currentColor=""; et currentLetter=""; Le code vérifie s’il y a une couleur de fond sur un élément en vérifiant si son style en a une ou non.
+
+    Si c’est le cas, alors il réinitialise tous les plugs dans le plugboard de sorte qu’ils soient de retour à leur état initial et met en place quelques variables pour les couleurs et les lettres : colors[element.style.background] = 0;
+
+    Le code a été écrit pour créer un effet sonore lorsque l’utilisateur clique sur le plugboard.
+
+    On commence par déclarer une variable appelée logMode.
+
+    Ceci est défini à true si l’utilisateur a cliqué sur le bouton "Log", et false sinon.
+
+    Ensuite, il déclare un tableau de variables appelées plugs qui contiendra toutes les lettres par ordre alphabétique.
+
+    La première lettre de ce tableau est "A".
+
+    Ensuite, il y a deux fonctions : showLog() et clearLog().
+
+    Ces fonctions n’ont pas de paramètres ou de valeurs de retour; ils modifient simplement le mode d’affichage de la div "log" ou du document selon les besoins.
+
+    La fonction suivante est analyze(), qui prend un paramètre : text.
+
+    Il vérifie ensuite si le texte contient des espaces avant de vérifier s’il commence par une majuscule (si oui, il retourne true).
+
+    Si le texte ne contient pas d’espaces et commence par une lettre majuscule, alors il retourne false; sinon, il retourne vrai.
+
+    La dernière fonction est log(), qui prend un paramètre : txt.
+
+    Il affiche alors n’importe quelle chaîne txt contient à l’intérieur de
+
+ tags au bas de la propriété innerHTML du document (qui contient tout le contenu HTML)
+
+    Le code est une fonction qui sera appelée lorsque l’utilisateur clique sur le bouton "log".
+
+    La fonction vérifie d’abord si la variable logMode est true ou false, puis change l’affichage de l’élément "log" en conséquence.
+
+    Le code ci-dessus est une fonction qui sera appelée lorsqu’un utilisateur clique sur un article dans son inventaire.
+
+    Il commence par vérifier s’il y a des articles en stock, puis il les affiche un à la fois dans l’ordre inverse.
+
+    Le code suivant montre comment effacer tous vos journaux actuels :
+
+    Le code commence par créer une variable appelée "plaintext" et lui assigner la valeur de document.getElementById("plaintext").
+
+    Le code crée alors une variable appelée "ciphertext" et lui assigne la valeur de document.getElementById("ciphertext").
+
+    Enfin, plainText est défini comme étant égal à plainText + lettre; cipherText est défini comme étant égal à cipherText + lettre; et log("Keyboard Input : " + lettre) est exécuté sur les deux variables afin qu’elles puissent imprimer leurs valeurs à différents moments pendant l’exécution de cette fonction.
+
+    La première ligne à l’intérieur de encryptKey() définit deux variables pour stocker des données sur ce qui se passe lorsque vous entrez des lettres dans le clavier de votre ordinateur : texte brut (document.getElementById("plaintext")), qui stocke toutes les entrées du clavier de votre ordinateur lorsque vous tapez des lettres, et le texte chiffré (document
+
+    Le code cryptera la lettre "a" et la stockera dans la variable encryptedLetter.
+
+    Le code enregistre ensuite la lettre qui a été entrée dans le clavier, qui est "a".
+
+    Le code éteint toutes les lumières, puis allume une lumière pour chaque lettre de l’alphabet.
+
+    Le code active également une touche pour indiquer quand un utilisateur appuie dessus.
+
+    La première ligne crée un tableau appelé éléments qui contient toutes les
+
+ s avec class="lightOn".
+
+    La deuxième ligne traverse ce tableau et change leur className de "lightOn" à "lightOff".
+
+    La troisième ligne met en place une minuterie qui rallume toutes les lumières après 800 millisecondes. *
+
+    Le code éteindra toutes les lumières, puis il allumera une lumière à la fois.
+
+    Le code ci-dessus est utilisé pour contrôler les lumières dans une pièce avec une bande LED.
+
+    Le code recherche une touche sur le clavier.
+
+    Si c’est le cas, alors il cryptera la lettre qui a été pressée.
+
+    La première ligne de code vérifie si l’événement a une propriété keyCode ou non.
+
+    Si c’est le cas, alors nous pouvons utiliser cette valeur pour vérifier quel caractère a été pressé et ce que son équivalent en majuscules serait en utilisant String.fromCharCode().
+
+    S’il n’y a pas de propriété keyCode dans l’objet event, alors nous devons utiliser une méthode alternative pour déterminer quel caractère a été pressé : en regardant sa valeur Unicode (char).
+
+    Cette fonction convertit n’importe quel nombre donné en une chaîne avec tous les caractères de 0-255 convertis en leurs équivalents majuscules.
+
+    Nous n’acceptons que les lettres de notre alphabet !
+
+    Le code tente d’accepter uniquement les lettres de l’alphabet.
+
+    Si une lettre n’est pas dans l’alphabet, elle sera convertie en son équivalent majuscule et ensuite transmise à la fonction keyOn() qui déclenchera un écouteur d’événement qui appellera encryptKey().
+
+    Le code commence par la création d’une variable appelée plain-text.
+
+    Il crée alors une autre variable appelée ciphertext.
+
+    Le code définit la valeur du texte en clair comme étant le texte entre les
+
+ balises, et définit la valeur du chiffre comme étant tout le texte en dehors de ces balises.
+
+    La ligne suivante est là où elle devient intéressante : document.getElementById("plaintext"). innerHTML = plaintext; Cette ligne indique à JavaScript que lorsque vous tapez "plain" dans la barre d’adresse de votre navigateur, il devrait trouver un élément avec id="plain".
+
+    Cet élément aura sa propriété innerHTML réglé sur "plaine".
+
+    Ensuite, cette même ligne dit que lorsque vous tapez "cipher", JavaScript devrait trouver un élément avec id="cipher".
+
+    Cet élément aura sa propriété innerHTML réglée à "cipher".
+
+    Vient ensuite un appel de fonction pour nextRotor().
+
+    Cette fonction prend un argument - rotor - qui est utilisé comme référence à la chaîne qui a été tapée dans la barre d’adresse de votre navigateur avant d’appeler cette fonction (dans notre cas, ce serait soit "plain" ou "cipher").
+
+    La première chose que fait cette fonction est d’arrêter la propagation sur l’événement afin que nous ne fassions rien d’autre accidentellement pendant que nous analysons ce qui se passe à l’intérieur de notre programme.
+
+    Alors il
+
+    Le code est une fonction simple qui prend la valeur d’un rotor et y ajoute un écouteur d’événement.
+
+    La fonction nextRotor est appelée chaque fois que le rotor change, ce qui signifie que la fonction est appelée chaque fois que l’utilisateur clique sur un bouton différent.
+
+    Ensuite, nous utilisons event.stopPropagation() pour empêcher tout autre événement d’être déclenché lorsque celui-ci est exécuté.
+
+    Le code commence par déclarer une variable appelée "rotor1Position" et lui assigner la valeur de document.getElementById("rotor1Current").innerText.
+
+    Ensuite, le code déclare une variable appelée "rotor2Position" et lui assigne la valeur de document.getElementById("rotor2Current").innerText.
+
+    La troisième ligne déclare une variable appelée "rotor3Position" et lui assigne la valeur de document.getElementById("rotor3Current").innerText.
+
+    Les lignes suivantes déclarent les variables qui seront utilisées pour configurer un écouteur d’événement lorsque des modifications sont apportées à l’une de ces trois valeurs : var rotorSettings = document.querySelector('#rotofSettings'); var rotor1Setting = rotorSettings; var rotor2Setting = rotorSettings; var rotorsetting = nul; fonction cancelSettings() { document.querySelector('#rotofsettings'). style . display="none"; }
+
+    Le code est utilisé pour permettre à l’utilisateur de modifier les valeurs des rotors.
+
+    Le code ci-dessus contient une fonction qui sera appelée lorsque l’utilisateur clique sur le bouton "Modifier les paramètres", qui définira ensuite les valeurs des trois rotors à leurs valeurs de courant respectives.
+
+    Le code commence par déclarer les variables qui seront utilisées dans le programme.
+
+    La première variable est "rotorA" qui contiendra une valeur de "I", "II" ou "III".
+
+    Ceci est fait avec une déclaration if.
+
+    Ensuite, il y a deux autres variables déclarées : rotorB et rotorC.
+
+    Ces deux variables sont également déclarées à l’aide d’une instruction if mais elles ont des valeurs différentes selon la valeur stockée dans la variable nommée r (qui signifie Rotor).
+
+    La partie suivante du code déclare trois fonctions appelées switch(), break(), et case().
+
+    La fonction switch() prend un argument qui est une chaîne représentant une lettre de A-Z.
+
+    Si cette lettre représente une lettre majuscule, cela signifie que cette fonction doit s’exécuter lorsque ce cas spécifique se produit; sinon, il ne devrait pas exécuter du tout.
+
+    Par exemple, si vous tapez 'switch("a")', cela signifierait que quand quelqu’un tape dans 'a', le programme devrait exécuter n’importe quel code entre ses parenthèses parce que c’est équivalent à taper 'case ("a")'.
+
+    Ensuite, il y a une fonction break() qui s’exécute à tout moment après que ses parenthèses sont atteintes sans exécuter quoi que ce soit d’autre à l’intérieur d’eux.
+
+    Enfin, il y a une autre fonction appelée case().
+
+    Le code définira la valeur du champ "rotor2Select" à "I", puis passera à la case "II".
+
+    Le code va ensuite régler la valeur du champ "rotor3Select" à "III", puis passer à la case "IV".
+
+    Le code va ensuite régler la valeur du champ "rotor4Select" à "IV", puis passer à la case "V".
+
+    Le code commence par définir le mode à "Encrypt" s’il n’est pas déjà défini.
+
+    Si le mode est défini sur "Encrypt", alors une nouvelle variable nommée ciphertext sera créée et assignée une chaîne vide, ce qui signifie qu’aucun texte ne sera affiché dans cette zone du document.
+
+     Le code définit ensuite deux éléments HTML avec des ID appelés texte clair et texte chiffré.
+
+    La prochaine ligne de code utilise la fonction intégrée de JavaScript eval() pour exécuter une chaîne contenant des commandes JavaScript.
+
+    Cette commande indique au navigateur ce qui doit se passer lorsqu’il rencontre certains caractères dans son entrée : if (mode="Encrypt") {document.getElementById("plaintext"). innerHTML=
+
+    
+    Le code affichera ce qui suit :
+
+    Texte en clair :
+
+    Texte chiffré :
+
+    Le code commence par déclarer les variables qui seront utilisées dans le programme.
+
+    La première variable est appelée letterCount, qui commence à 0 et augmente à mesure que vous tapez plus de lettres dans la zone de texte de la page.
+
+    Ensuite, une fonction appelée clearLog() est déclarée pour effacer toutes les anciennes entrées de log avant que ce code ne soit lancé.
+
+    La fonction suivante est encrypt(), qui prend un paramètre : mode="Encrypt".
+
+    Cela nous dit quel type de cryptage nous faisons avec cette fonction particulière.
+
+    Dans ce cas, c’est "Encrypt", donc quand on appelle document.getElementById("enigma-book"). className="page1" (ce qui se produirait si nous utilisions JavaScript), alors tout notre texte devient crypté et illisible sans logiciel de décryptage comme Enigma ou un autre outil similaire.
+
+    Vient ensuite decrypt(), qui prend aussi un paramètre : mode="Decrypt".
+
+    En appelant document.getElementById("enigma-book"). className="page2" (si JavaScript était utilisé), tout notre texte redevient lisible car il est maintenant déchiffré !
+
+    Le code est une fonction qui crypte et décrypte le texte de la page.
+
+    La première ligne de code indique au navigateur que cette fonction sera appelée avec mode="Encrypt" ou "Decrypt".
+
+    La ligne de code suivante définit le nom de classe pour chaque page à "page1" ou "page2".
+    
+    Les deux dernières lignes effacent tout texte de la fenêtre.
+
+    
+

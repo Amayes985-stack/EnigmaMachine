@@ -1,0 +1,53 @@
+On commence par déclarer une variable appelée "TITLE" qui sera le titre du livre de code.
+
+Puis on déclare ensuite une variable appelée "NUMBER_OF_DAYS" qui correspond à 30 jours, et enfin il déclare une fonction appelée "rotor_selection".
+
+Cette fonction prend une valeur entière pour le nombre de rotors à utiliser (dans ce cas, il n'y en a que 3) et renvoie un tableau avec toutes les valeurs de rotor possibles.
+
+La ligne suivante commence par déclarer deux variables : une nommée "alphabet" qui contient 26 lettres de A à Z, et une autre nommée "i", qui est définie à 0.
+
+La ligne suivante définit ii égal à i ou ii égal à iii selon que l'une ou l'autre de ces valeurs est inférieure ou supérieure à i.
+
+Suivent trois lignes qui mettent en place trois boucles où chaque boucle parcourt toutes les lettres de l'alphabet jusqu'à ce qu'elle en trouve une qui corresponde à sa condition (soit i égal à iii, soit ii égal à iii).
+
+Une fois qu'ils ont trouvé la lettre correspondante, ils l'assignent comme valeur pour le numéro de rotor correspondant - ainsi, s'ils ont trouvé 'A', le rotor 1 sera assigné comme 'A'.
+
+Le code générera une liste de tous les rotors, dans l'ordre, qui sont disponibles pour être utilisés avec la machine Enigma.
+
+Le code suivant est un exemple de la façon d'utiliser l'un de ces rotors.
+
+rotor_i = rotors[i] r o t o r _ i = "I"
+
+On commence par définir l'alphabet comme "ABCDEFGHIJKLMNOPQRSTUVWXYZ".
+
+Puis on ira boucler ensuite sur chacun des nombres de 0 à 25, et attribuer une lettre aléatoire de cette plage à un rotor.
+
+Le code renvoie ensuite les paramètres de ce rotor particulier.
+
+La première ligne définit un alphabet comme "ABCDEFGHIJKLMNOPQRSTUVWXYZ".
+
+Elle est suivie d'une boucle qui parcourt toutes les lettres de cette liste, les affectant une par une à différents rotors.
+
+On générera une chaîne de lettres et de chiffres équivalente à "ABCDEFGHIJKLMNOPQRSTUVWXYZ". Le code générera une chaîne de lettres et de chiffres équivalente à "ABCDEFGHIJKLMNOPQRSTUVWXYZ".
+
+Le code est une fonction qui prend deux paramètres : title et numberOfDays.
+
+Le code imprime ensuite la chaîne "Title" à l'écran, suivie d'une boucle for qui parcourt chaque jour du mois de 0 à -1.
+
+La première ligne est juste une instruction vide.
+
+La deuxième ligne crée une variable alphabet avec 26 lettres (A-Z).
+
+Elle est utilisée comme une liste de tous les caractères possibles qui peuvent être insérés dans le champ de saisie du programme.
+
+La troisième ligne crée une autre variable appelée settings qui contiendra le texte tapé dans le champ de saisie après qu'il ait été traité par cette fonction.
+
+Elle commence par être vide parce que rien n'a encore été tapé, mais lorsque quelque chose sera tapé, elle contiendra ce qui a été saisi après avoir été traité par cette fonction.
+
+La quatrième ligne définit certaines variables à utiliser plus tard afin de générer des nombres aléatoires à insérer dans notre algorithme : stecksA contient les 25 combinaisons de lettres qui ne sont pas déjà dans stecksB ; stecksB contient les 25 combinaisons de lettres qui sont déjà dans stecksA ou toute combinaison de lettres qui ne se trouve nulle part ailleurs ; et rotor contient toutes les valeurs possibles entre 0 et 25 inclus (0-25).
+
+On génère une liste de toutes les combinaisons de lettres qui se trouvent dans le livre de codes.
+
+L'utilité de ce code est de créer un dictionnaire avec toutes les combinaisons possibles de lettres et leurs valeurs correspondantes. (Soit les configurations hebdomadaires)
+
+
